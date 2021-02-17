@@ -1,12 +1,7 @@
 # Ignore docs files
-_gh_pages
-_site
-
-# Ignore ruby files
-.ruby-version
-.bundle
-vendor/cache
-vendor/bundle
+/_gh_pages/
+# Hugo folders
+/resources/
 
 # Numerous always-ignore extensions
 *.diff
@@ -33,20 +28,14 @@ vendor/bundle
 *.sublime-workspace
 nbproject
 Thumbs.db
+/.vscode/
+# Local Netlify folder
+.netlify
 
 # Komodo
 .komodotools
 *.komodoproject
 
-# SCSS-Lint
-scss-lint-report.xml
-
-# grunt-contrib-sass cache
-.sass-cache
-
-# Jekyll metadata
-docs/.jekyll-metadata
-
 # Folders to ignore
-bower_components
-node_modules
+/js/coverage/
+/node_modules/
